@@ -1,6 +1,5 @@
 ﻿
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as preact from 'preact';
 import * as components from '../';
 import * as pages from './index.js';
 import * as northwind from './northwind.js';
@@ -36,14 +35,14 @@ Object.keys(pages).forEach(section => {
 
 
 function index(name){
-    ReactDOM.unmountComponentAtNode(el);
     el.innerHTML = name ? 'not found ' + name : links.join('');
 }
 
 
 function render(component, props){
+    el.innerHTML = '';
     props.key = ++key;
-    ReactDOM.render(React.createElement(tags[component], props), el);
+    preact.render(preact.h(tags[component], props), el);
 }
 
 
