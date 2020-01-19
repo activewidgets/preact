@@ -1,0 +1,6 @@
+{
+  "name": "@activewidgets/preact/bundle",
+  "main": "../dist/umd/bundle.js",
+  "module": "../dist/esm/bundle.js",
+  "private": true
+}

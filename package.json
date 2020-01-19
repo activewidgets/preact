@@ -1,0 +1,70 @@
+{
+  "name": "@activewidgets/preact",
+  "version": "0.0.9",
+  "description": "Datagrid component for preact",
+  "author": "ActiveWidgets SARL",
+  "license": "MIT",
+  "main": "./dist/umd/package.js",
+  "module": "./dist/esm/package.js",
+  "files": [
+    "dist/*/*.*",
+    "**/package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rimraf dist/* && rollup -c",
+    "public": "npm run build && rimraf public/* && parcel build examples/index.html -d public",
+    "start": "parcel examples/index.html -d public --open",
+    "test": "npm run public && jest"
+  },
+  "dependencies": {
+    "@activewidgets/datagrid": "0.0.9",
+    "@activewidgets/frameworks": "0.0.9",
+    "preact": "^10"
+  },
+  "devDependencies": {
+    "@activewidgets/options": "0.0.9",
+    "@activewidgets/puppeteer": "0.0.3",
+    "@activewidgets/testing": "0.0.2",
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "@rollup/plugin-node-resolve": "^6",
+    "parcel": "^1",
+    "postcss-import": "^12",
+    "rimraf": "^3",
+    "rollup": "^1.20",
+    "rollup-plugin-babel": "^4",
+    "rollup-plugin-postcss": "^2",
+    "rollup-plugin-sourcemaps": "^0.4",
+    "rollup-plugin-terser": "^5",
+    "style-inject": "^0.3"
+  },
+  "jest": {
+    "projects": [
+      {
+        "displayName": "Unit",
+        "preset": "@activewidgets/testing",
+        "moduleNameMapper": {
+          "@activewidgets/components": "<rootDir>/js",
+          "@activewidgets/testing": "<rootDir>/test/adapter/preact.js"
+        }
+      },
+      {
+        "displayName": "Visual",
+        "preset": "@activewidgets/puppeteer"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activewidgets/preact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/activewidgets/preact/issues"
+  },
+  "homepage": "https://github.com/activewidgets/preact#readme"
+}

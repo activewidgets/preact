@@ -1,0 +1,6 @@
+{
+  "name": "@activewidgets/preact/js",
+  "main": "../dist/umd/js.js",
+  "module": "../dist/esm/js.js",
+  "private": true
+}
