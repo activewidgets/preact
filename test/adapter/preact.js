@@ -1,6 +1,6 @@
 
-import React from 'react';
-import {render as originalRender, fireEvent, wait, waitForElement} from '@testing-library/react';
+import {h} from 'preact';
+import {render as originalRender, fireEvent, wait, waitForElement} from '@testing-library/preact';
 import * as components from '@activewidgets/components';
 
 let tags = {};
@@ -15,7 +15,7 @@ export function render(component, props){
         throw new Error('component not found - ' + component);
     }
 
-    return originalRender(React.createElement(tags[component], props));
+    return originalRender(h(tags[component], props));
 }
 
 export {fireEvent, wait, waitForElement};
