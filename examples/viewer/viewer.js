@@ -1,21 +1,14 @@
 ﻿
 import {Viewer} from '@activewidgets/examples';
-import {render, h} from 'preact';
+import {render} from 'preact';
 import * as pages from '../index.js';
-import * as components from '../../';
-
-
-let tags = {};
-
-Object.keys(components).forEach(name => {
-    tags['ax-' + name.toLowerCase()] = components[name];
-});
+import {h} from '../../';
 
 
 function mount(component, props){
     let container = document.getElementById('app');
     container.innerHTML = '';
-    render(h(tags[component], props), container);
+    render(h(component, props), container);
 }
 
 
