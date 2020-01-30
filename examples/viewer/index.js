@@ -1,9 +1,9 @@
 ﻿
 import {Viewer} from '@activewidgets/examples';
-import {h} from '../../';
+import {h} from '@activewidgets/preact';
 import {render} from 'preact';
 import * as pages from './examples.js';
-import readme from '../README.md';
+import readme from '../demo/README.md';
 import logo from './preact.svg';
 import pkg from '../../package.json';
 
