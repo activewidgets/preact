@@ -9,7 +9,9 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@activewidgets/preact": "0.0.10",
+    "@activewidgets/examples": "*",
+    "@activewidgets/options": "*",
+    "@activewidgets/preact": "*",
     "preact": "^10"
   },
   "devDependencies": {
