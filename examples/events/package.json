@@ -2,7 +2,7 @@
   "name": "preact-events",
   "version": "1.0.0",
   "description": "User events - ActiveWidgets/Preact",
-  "keywords": [],
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "start": "parcel index.html --open",
