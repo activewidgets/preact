@@ -68,10 +68,12 @@
     "url": "git+https://github.com/activewidgets/preact.git"
   },
   "keywords": [
+    "activewidgets",
+    "datagrid",
     "react"
   ],
   "bugs": {
     "url": "https://github.com/activewidgets/preact/issues"
   },
-  "homepage": "https://github.com/activewidgets/preact#readme"
+  "homepage": "https://activewidgets.com"
 }

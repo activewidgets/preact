@@ -23,9 +23,11 @@ const columns = [
   {header: 'Country', field: 'country'}
 ];
 
+const rows = northwind.customers;
+
 
 function App(){
-    return <Datagrid columns={columns} rows={northwind.customers} />
+    return <Datagrid columns={columns} rows={rows} />
 }
 
 
