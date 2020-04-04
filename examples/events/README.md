@@ -1,4 +1,20 @@
 
-[Open fullscreen](https://preact.activewidgets.com/events/) | [Source on github](https://github.com/activewidgets/preact/tree/master/examples/events) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/preact/tree/master/examples/events)
+[Open fullscreen](/events/) | [Source on github](https://github.com/activewidgets/preact/tree/master/examples/events) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/preact/tree/master/examples/events)
 
-preact example
+The datagrid emits composite [mouse](https://docs.activewidgets.com/api/datagrid/mouse-event/) event 
+which makes it easier to find the elements affected by the user action -
+
+```js
+function onMouse({row, column}){
+    alert(`row ${row.key} clicked!`);
+}
+
+function App(){
+    return <Datagrid columns={columns} rows={rows} onMouse={onMouse} />
+}
+```
+
+Read more:
+
+- [Get started](https://docs.activewidgets.com/guide/starting/preact/#user-events)
+- [API - mouse event](https://docs.activewidgets.com/api/datagrid/mouse-event/)

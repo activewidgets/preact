@@ -1,4 +1,26 @@
 
-[Open fullscreen](https://preact.activewidgets.com/cdn-es5/) | [Source on github](https://github.com/activewidgets/preact/tree/master/examples/cdn-es5) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/preact/tree/master/examples/cdn-es5)
+[Open fullscreen](/cdn-es5/) | [Source on github](https://github.com/activewidgets/preact/tree/master/examples/cdn-es5) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/preact/tree/master/examples/cdn-es5)
 
-preact example
+For quick prototyping you can use files on ActiveWidgets CDN:
+
+```html
+<script src="https://cdn.activewidgets.com/preact"></script>
+```
+
+If you support ie11 you should also include Promise polyfill:
+
+```html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=Promise"></script>
+```
+
+With UMD package the component classes are at ActiveWidgets.React namespace:
+
+```js
+var Datagrid = ActiveWidgets.Preact.Datagrid;
+
+var rows = [
+    { framework: 'preact', source: 'CDN', language: 'ES5' }
+];
+
+var App = preact.h(Datagrid, {rows: rows});
+```
