@@ -16,5 +16,5 @@ function App(){
 
 Read more:
 
-- [Get started](https://docs.activewidgets.com/guide/starting/preact/#user-events)
+- [Preact Datagrid - Get started](https://docs.activewidgets.com/guide/env/preact/#user-events)
 - [API - mouse event](https://docs.activewidgets.com/api/datagrid/mouse-event/)

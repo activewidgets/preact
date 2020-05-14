@@ -31,6 +31,6 @@ Assign an array of column descriptor objects to the [columns](https://docs.activ
 
 Read more:
 
-- [Get started](https://docs.activewidgets.com/guide/starting/preact/#data-properties)
+- [Preact Datagrid - Get started](https://docs.activewidgets.com/guide/env/preact/#data-properties)
 - [API - columns](https://docs.activewidgets.com/api/datagrid/columns/)
 - [API - rows](https://docs.activewidgets.com/api/datagrid/rows/)
