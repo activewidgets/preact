@@ -14,7 +14,7 @@ This is a simple demo showing some of the features of ActiveWidgets/Preact datag
 - International number/date formats
 - Custom column types (presets)
 
-[Preact Datagrid - Get started](https://docs.activewidgets.com/guide/env/preact/)
+[Preact Datagrid - Get started](https://activewidgets.com/guide/env/preact/)
 
 ### Virtualized scrolling
 
@@ -140,5 +140,5 @@ like popups, overlays, gantt charts, schedulers etc.
 
 Read more:
 
-- [Preact Datagrid - Get started](https://docs.activewidgets.com/guide/env/preact/)
-- [API](https://docs.activewidgets.com/api/)
+- [Preact Datagrid - Get started](https://activewidgets.com/guide/env/preact/)
+- [API](https://activewidgets.com/api/)

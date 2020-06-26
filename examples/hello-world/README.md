@@ -29,4 +29,4 @@ Thats all!
 
 Read more:
 
- - [Preact Datagrid - Get started](https://docs.activewidgets.com/guide/env/preact/)
+ - [Preact Datagrid - Get started](https://activewidgets.com/guide/env/preact/)
