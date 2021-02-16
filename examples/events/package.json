@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "User events - ActiveWidgets/Preact",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "vite --open /",
+    "build": "vite build"
   },
   "dependencies": {
     "@activewidgets/examples": "*",
@@ -14,7 +14,7 @@
     "preact": "^10"
   },
   "devDependencies": {
-    "parcel-bundler": "^1"
+    "vite": "^2.0.0-beta.70"
   },
   "private": true
 }
