@@ -1,8 +1,0 @@
-{
-  "name": "preact-cdn-es5",
-  "version": "1.0.0",
-  "description": "ActiveWidgets/Preact from CDN",
-  "license": "MIT",
-  "main": "src/index.js",
-  "private": true
-}
