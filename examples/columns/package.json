@@ -10,11 +10,16 @@
   },
   "dependencies": {
     "@activewidgets/examples": "*",
-    "@activewidgets/preact": "*",
+    "@activewidgets/preact": "^3",
     "preact": "^10"
   },
   "devDependencies": {
     "vite": "^2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/activewidgets/preact.git",
+    "directory": "examples/columns"
   },
   "private": true
 }

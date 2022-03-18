@@ -1,5 +1,5 @@
 
-[Open fullscreen](/demo/) | [Source on github](https://github.com/activewidgets/preact/tree/master/examples/demo) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/preact/tree/master/examples/demo)
+[Open fullscreen](https://preact.activewidgets.com/demo/) | [Source on github](https://github.com/activewidgets/preact/tree/master/examples/demo) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/preact/tree/master/examples/demo?file=src/index.jsx)
 
 This is a simple demo showing some of the features of ActiveWidgets/Preact datagrid -
 

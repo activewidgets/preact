@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@activewidgets/examples": "*",
-    "@activewidgets/options": "*",
-    "@activewidgets/preact": "*",
+    "@activewidgets/options": "^3",
+    "@activewidgets/preact": "^3",
     "preact": "^10"
   },
   "devDependencies": {
     "vite": "^2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/activewidgets/preact.git",
+    "directory": "examples/demo"
   },
   "private": true
 }
