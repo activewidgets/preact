@@ -6,5 +6,6 @@
 
 import adapter from '@activewidgets/frameworks/preact';
 import {Component, cloneElement, createElement, isValidElement, createContext} from 'preact';
+import {Suspense, lazy} from 'preact/compat';
 
-export const {h, build} = adapter({Component, cloneElement, createElement, isValidElement, createContext});
+export const {h, build} = adapter({Component, cloneElement, createElement, isValidElement, createContext, Suspense, lazy});
