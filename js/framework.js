@@ -4,8 +4,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import adapter from '@activewidgets/frameworks/preact';
-import {Component, cloneElement, createElement, isValidElement, createContext} from 'preact';
+import converter from '@activewidgets/frameworks/preact';
+import {Component, createElement, cloneElement, isValidElement, createContext} from 'preact';
 import {Suspense, lazy} from 'preact/compat';
 
-export const {h, build} = adapter({Component, cloneElement, createElement, isValidElement, createContext, Suspense, lazy});
+export const {h, component: PreactComponent} = converter({Component, createElement, cloneElement, isValidElement, createContext, Suspense, lazy});
