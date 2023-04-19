@@ -5,7 +5,7 @@
  */
 
 import converter from '@activewidgets/frameworks/preact';
-import {Component, createElement, cloneElement, isValidElement, createContext} from 'preact';
+import {Component, Fragment, createElement, cloneElement, isValidElement, createContext} from 'preact';
 import {Suspense, lazy} from 'preact/compat';
 
-export const {h, component: PreactComponent} = converter({Component, createElement, cloneElement, isValidElement, createContext, Suspense, lazy});
+export const {component: PreactComponent} = converter({Component, Fragment, createElement, cloneElement, isValidElement, createContext, Suspense, lazy});
