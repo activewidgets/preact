@@ -5,8 +5,8 @@
  */
 
 import {Viewer} from '@activewidgets/examples';
-import {h} from '@activewidgets/preact';
-import {render} from 'preact';
+import {Datagrid} from '@activewidgets/preact';
+import {h, render} from 'preact';
 import * as pages from './examples.js';
 import readme from '../demo/README.md';
 import logo from './preact.svg';
@@ -19,7 +19,7 @@ let framework = 'Preact',
 
 function mount(component, props){
     container.innerHTML = '';
-    render(h(component, props), container);
+    render(h(Datagrid, props), container);
 }
 
 
