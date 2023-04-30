@@ -5,7 +5,7 @@
  */
 
 import {PreactComponent} from './framework.js';
-import {Datagrid as _Datagrid, Row as _Row, Cells as _Cells} from '@activewidgets/datagrid/js';
+import {Datagrid as _Datagrid, Row as _Row, Cells as _Cells} from '@activewidgets/datagrid';
 
 export const Datagrid = PreactComponent(_Datagrid);
 export const Row = PreactComponent(_Row);
